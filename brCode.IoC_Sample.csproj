@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="01ConstructorMethodology\" />
+    <Folder Include="02GetterAndSetter\" />
+    <Folder Include="03InterfaceImplemantation\" />
+    <Folder Include="05DynamicLocator\" />
+    <Folder Include="04ServiceLocator\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="02GetterAndSetter\EnderecoPlus.cs" />
+    <Compile Remove="04aServiceLocator\IEmpresa.cs" />
+    <Compile Remove="04ServiceLocator\LocalizadorEndereco.cs" />
+  </ItemGroup>
+</Project>
